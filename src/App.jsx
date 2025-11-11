@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 const highlights = [
   {
@@ -211,6 +212,7 @@ export default function App() {
         </section>
       </main>
       <footer className="footer">© {new Date().getFullYear()} Exit the Matrix. All rights reserved.</footer>
+      <SpeedInsights />
     </div>
   );
 }
