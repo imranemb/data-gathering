@@ -1,0 +1,22 @@
+{
+  "name": "startup-companion-landing",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.9.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.42",
+    "@types/react-dom": "^18.2.18",
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.1.4"
+  }
+}
+
